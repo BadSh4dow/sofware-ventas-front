@@ -32,3 +32,42 @@ button{
   flex-direction: column;
   width: 13%;
 }*/
+.underHeader{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 2vh;
+  display: inline-flex;
+  width: 100%;
+}
+.underHeaderOne{
+  width: 45%;
+}
+.underHeaderTwo{
+  width: 45%;
+}
+.cta{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.nom{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.dom{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.loc{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.ident{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-left: 4.7vw;
+}
