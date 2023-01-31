@@ -71,3 +71,13 @@ button{
   align-items: baseline;
   margin-left: 4.7vw;
 }
+
+.cargas{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0px auto;
+}
+.formCargas{
+  display: flex;
+}
