@@ -1,7 +1,26 @@
 import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 
 
 const TopHeader = () => {
+
+    const [today, setToday] = useState(new Date())
+
+    function getToday(){
+        let year = `${today.getFullYear()}` 
+        let month = today.getMonth() + 1
+        let day = today.getDate()
+
+        if(month < 10) month = `0${month}`
+        else month = `${month}`
+
+        if(day < 10) day = `0${day}`
+        else day = `${day}`
+
+        return(`${year}-${month}-${day}`)
+    }
+
     return(
         <div className="topHeader">
             <form className="headerTopForm">
@@ -17,7 +36,7 @@ const TopHeader = () => {
                 </div>
                 <div className="topFormSection">
                     <label htmlFor="date">Fecha</label>
-                    <input id="date" type="date"></input>
+                    <input id="date" type="date" value={getToday()} max={getToday()}></input>
                 </div>
                 <div className="topFormSection">
                     <label htmlFor="moneda">Moneda</label>
