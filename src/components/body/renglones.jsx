@@ -10,19 +10,19 @@ const Renglones = () => {
                     <button type="button">...</button>
 
                     <label htmlFor="descripcion">Descripcion</label>
-                    <input id="descripcion" type="text" />
+                    <input id="descripcion" type="text" disabled/>
 
                     <label htmlFor="T">T</label>
-                    <input id="T" type="text" />
+                    <input id="T" type="number" />
 
                     <label htmlFor="cantidad">Cantidad</label>
-                    <input id="cantidad" type="text" />
+                    <input id="cantidad" type="number" />
                     
                     <label htmlFor="precio">Precio</label>
-                    <input id="precio" type="text" />
+                    <input id="precio" type="number" />
                     
                     <label htmlFor="descuentos">Descuentos</label>
-                    <input id="descuentos" type="text" />
+                    <input id="descuentos" type="number" />
                 </form>
             </div>
             <div className="listado">
