@@ -97,7 +97,6 @@ button{
 }
 .cargas{
   width: 100%;
-
 }
 
 .formCargas{
@@ -110,11 +109,15 @@ button{
 }
 .formCargas input[type="text"]{
   width: 44vw;
-  margin-right: 0.3vw;
+  margin-right: 0.5vw;
 }
 .formCargas input[disabled]{
   background-color: field;
   border-color: rgb(133, 133, 133)
+}
+.formCargas button{
+  margin-left: 0.3vw;
+  margin-right: 0.3vw;
 }
 .formCargas label{
   margin-left: 0.3vw;

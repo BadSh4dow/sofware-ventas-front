@@ -23,7 +23,9 @@ const Renglones = () => {
                     
                     <label htmlFor="descuentos">Descuentos</label>
                     <input id="descuentos" type="number" />
-                </form>
+
+                    <button type="button">+</button>
+                </form>            
             </div>
             <div className="listado">
                 <ul>
