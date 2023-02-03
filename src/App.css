@@ -37,9 +37,10 @@ button{
 }*/
 .underHeader{
   margin: 0px 5%;
-  width: 100%;
+  width: 90%;
   padding-top: 2vh;
   display: inline-flex;
+  justify-content: space-between;
 }
 .underHeaderOne{
   width: 45%;
