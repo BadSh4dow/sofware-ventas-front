@@ -36,29 +36,37 @@ const UnderHeader = () => {
                 </div>
             </div>
             <div className="underHeaderTwo">
-                <div className="vdor">
-                    <label htmlFor="loc">Vdor.</label>
-                    <input id="vdor" type="text"></input>
+                <div className="">
+                    <div className="vdor">
+                        <label htmlFor="loc">Vdor.</label>
+                        <input id="vdor" type="text"></input>
+                    </div>
+                    <div className="canal">
+                        <label htmlFor="canal">Canal</label>
+                        <input id="canal" type="text"></input>
+                        
+                    </div>
+                    <div className="plan">
+                        <label htmlFor="loc">Plan</label>
+                        <input id="plan" type="text"></input>
+                    </div>
                 </div>
-                <div className="canal">
-                    <label htmlFor="canal">Canal</label>
-                    <input id="canal" type="text"></input>
+                <form className="iva">
+                    <div>
+                        <label for="ivaIncl">Iva Exon</label>
+                        <input type="radio" id="ivaExon" name="ivaExon"></input>
+                    </div>
+                    <div>
+                        <label for="ivaIncl">Iva Incl</label>
+                        <input type="radio" id="ivaIncl" name="ivaIncl"></input>
+                    </div>
                     
-                </div>
-                <div className="plan">
-                    <label htmlFor="loc">Plan</label>
-                    <input id="plan" type="text"></input>
-                </div>
-                <div>
+                </form>
+                <div className="primaryUnderHeaderButtons">
                     <button type="button">Situacion</button>
                     <button type="button">Aceptar</button>
                 </div>
-                <form>
-                    <label for="ivaIncl">Iva Exon</label>
-                    <input type="radio" id="ivaExon" name="ivaExon"></input>
-                    <label for="ivaIncl">Iva Incl</label>
-                    <input type="radio" id="ivaIncl" name="ivaIncl"></input>
-                </form>
+                
             </div>
                 
                 
