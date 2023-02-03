@@ -177,3 +177,11 @@ button{
 .formCargas label{
   margin-left: 0.3vw;
 }
+.listado{
+  height: 50vh;
+}
+.footer{
+  height: 7.3%;
+  margin: 0 5%;
+  width: 90%;
+}
